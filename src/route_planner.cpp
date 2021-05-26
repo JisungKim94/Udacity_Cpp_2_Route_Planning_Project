@@ -56,6 +56,14 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node)
 
 RouteModel::Node *RoutePlanner::NextNode()
 {
+    RouteModel::Node *ptr_node_lowest_fvalue = nullptr;
+
+    std::sort(open_list.begin(), open_list.end(), Compare);
+
+    ptr_node_lowest_fvalue = open_list.back();
+    open_list.pop_back();
+
+    return ptr_node_lowest_fvalue;
 }
 
 // TODO 6: Complete the ConstructFinalPath method to return the final path found from your A* search.
@@ -73,6 +81,18 @@ std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node 
     std::vector<RouteModel::Node> path_found;
 
     // TODO: Implement your solution here.
+    RouteModel::Node *ptr_temp_node = nullptr;
+    ptr_temp_node = current_node;
+    while (ptr_temp_node != start_node)
+    {
+        distance = distance + ptr_temp_node->distance(*current_node->parent);
+        path_found.push_back(*ptr_temp_node);
+        // insert is really slow method because need to move the rear element to maintain the element's adjacency
+        path_found.insert(path_found.begin(), *ptr_temp_node);
+
+        ptr_temp_node = ptr_temp_node->parent;
+    }
+    path_found.insert(path_found.begin(), *start_node);
 
     distance *= m_Model.MetricScale(); // Multiply the distance by the scale of the map to get meters.
     return path_found;
@@ -90,4 +110,12 @@ void RoutePlanner::AStarSearch()
     RouteModel::Node *current_node = nullptr;
 
     // TODO: Implement your solution here.
+}
+
+// kjs for TODO 5, sorting
+bool Compare(const RouteModel::Node *a, const RouteModel::Node *b)
+{
+    int f1 = a->g_value + a->h_value; // f1 = g1 + h1
+    int f2 = b->g_value + b->h_value; // f2 = g2 + h2
+    return f1 > f2;
 }
