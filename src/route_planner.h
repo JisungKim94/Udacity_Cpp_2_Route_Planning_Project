@@ -28,7 +28,6 @@ private:
 
   float distance = 0.0f;
   RouteModel &m_Model;
-  bool Compare(const std::vector<int> a, const std::vector<int> b);
 };
 
 #endif
