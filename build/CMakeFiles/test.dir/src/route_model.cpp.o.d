@@ -1,7 +1,7 @@
 CMakeFiles/test.dir/src/route_model.cpp.o: \
- /home/kjs/CppND-Route-Planning-Project/src/route_model.cpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_model.cpp \
  /usr/include/stdc-predef.h \
- /home/kjs/CppND-Route-Planning-Project/src/route_model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_model.h \
  /usr/include/c++/8/limits \
  /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
@@ -120,7 +120,7 @@ CMakeFiles/test.dir/src/route_model.cpp.o: \
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/kjs/CppND-Route-Planning-Project/src/model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/model.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \

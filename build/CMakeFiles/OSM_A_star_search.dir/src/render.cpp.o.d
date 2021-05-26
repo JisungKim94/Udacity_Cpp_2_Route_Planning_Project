@@ -1,7 +1,7 @@
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: \
- /home/kjs/CppND-Route-Planning-Project/src/render.cpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/render.cpp \
  /usr/include/stdc-predef.h \
- /home/kjs/CppND-Route-Planning-Project/src/render.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/render.h \
  /usr/include/c++/8/unordered_map /usr/include/c++/8/type_traits \
  /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
@@ -279,5 +279,5 @@ CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: \
  /usr/include/cairo/cairo-xlib.h /usr/include/cairo/cairo.h \
  /usr/local/include/io2d/xio2d_cairo_xlib_unmanaged_output_surfaces.h \
  /usr/local/include/io2d/xio2d_cairo_xlib_surfaces_impl.h \
- /home/kjs/CppND-Route-Planning-Project/src/route_model.h \
- /home/kjs/CppND-Route-Planning-Project/src/model.h
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/model.h

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kjs/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/kjs/Udacity_Cpp_2_Route_Planning_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kjs/CppND-Route-Planning-Project/build
+CMAKE_BINARY_DIR = /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build
 
 # Include any dependencies generated for this target.
 include thirdparty/pugixml/CMakeFiles/pugixml.dir/depend.make
@@ -72,16 +72,16 @@ include thirdparty/pugixml/CMakeFiles/pugixml.dir/flags.make
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o: thirdparty/pugixml/CMakeFiles/pugixml.dir/flags.make
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o: ../thirdparty/pugixml/src/pugixml.cpp
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o: thirdparty/pugixml/CMakeFiles/pugixml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o -MF CMakeFiles/pugixml.dir/src/pugixml.cpp.o.d -o CMakeFiles/pugixml.dir/src/pugixml.cpp.o -c /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o -MF CMakeFiles/pugixml.dir/src/pugixml.cpp.o.d -o CMakeFiles/pugixml.dir/src/pugixml.cpp.o -c /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml/src/pugixml.cpp
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pugixml.dir/src/pugixml.cpp.i"
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp > CMakeFiles/pugixml.dir/src/pugixml.cpp.i
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml/src/pugixml.cpp > CMakeFiles/pugixml.dir/src/pugixml.cpp.i
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pugixml.dir/src/pugixml.cpp.s"
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml.dir/src/pugixml.cpp.s
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml.dir/src/pugixml.cpp.s
 
 # Object files for target pugixml
 pugixml_OBJECTS = \
@@ -93,19 +93,19 @@ pugixml_EXTERNAL_OBJECTS =
 ../lib/libpugixml.a: thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o
 ../lib/libpugixml.a: thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make
 ../lib/libpugixml.a: thirdparty/pugixml/CMakeFiles/pugixml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libpugixml.a"
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml.dir/cmake_clean_target.cmake
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pugixml.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libpugixml.a"
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml.dir/cmake_clean_target.cmake
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pugixml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 thirdparty/pugixml/CMakeFiles/pugixml.dir/build: ../lib/libpugixml.a
 .PHONY : thirdparty/pugixml/CMakeFiles/pugixml.dir/build
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/clean:
-	cd /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml.dir/cmake_clean.cmake
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml.dir/cmake_clean.cmake
 .PHONY : thirdparty/pugixml/CMakeFiles/pugixml.dir/clean
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/depend:
-	cd /home/kjs/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kjs/CppND-Route-Planning-Project /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml /home/kjs/CppND-Route-Planning-Project/build /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml /home/kjs/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/pugixml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kjs/Udacity_Cpp_2_Route_Planning_Project /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/thirdparty/pugixml/CMakeFiles/pugixml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : thirdparty/pugixml/CMakeFiles/pugixml.dir/depend
 

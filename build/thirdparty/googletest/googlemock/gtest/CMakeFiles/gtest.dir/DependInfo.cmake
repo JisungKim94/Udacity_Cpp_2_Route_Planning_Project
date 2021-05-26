@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kjs/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc" "thirdparty/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" "gcc" "thirdparty/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d"
+  "/home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/googletest/googletest/src/gtest-all.cc" "thirdparty/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" "gcc" "thirdparty/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d"
   )
 
 # Targets to which this target links.

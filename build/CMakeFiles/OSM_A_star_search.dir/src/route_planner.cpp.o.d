@@ -1,7 +1,7 @@
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: \
- /home/kjs/CppND-Route-Planning-Project/src/route_planner.cpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_planner.cpp \
  /usr/include/stdc-predef.h \
- /home/kjs/CppND-Route-Planning-Project/src/route_planner.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_planner.h \
  /usr/include/c++/8/iostream \
  /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
@@ -110,7 +110,7 @@ CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: \
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/kjs/CppND-Route-Planning-Project/src/route_model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/route_model.h \
  /usr/include/c++/8/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -142,7 +142,7 @@ CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: \
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/kjs/CppND-Route-Planning-Project/src/model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/model.h \
  /usr/include/c++/8/cstddef /usr/include/c++/8/algorithm \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \

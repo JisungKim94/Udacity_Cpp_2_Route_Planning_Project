@@ -1,7 +1,7 @@
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: \
- /home/kjs/CppND-Route-Planning-Project/src/model.cpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/model.cpp \
  /usr/include/stdc-predef.h \
- /home/kjs/CppND-Route-Planning-Project/src/model.h \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/src/model.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/8/bits/os_defines.h \
@@ -104,8 +104,8 @@ CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: \
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h /usr/include/c++/8/cstddef \
- /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp \
- /home/kjs/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml/src/pugixml.hpp \
+ /home/kjs/Udacity_Cpp_2_Route_Planning_Project/thirdparty/pugixml/src/pugiconfig.hpp \
  /usr/include/c++/8/iterator /usr/include/c++/8/ostream \
  /usr/include/c++/8/ios /usr/include/c++/8/bits/ios_base.h \
  /usr/include/c++/8/bits/locale_classes.h \
