@@ -1,96 +1,27 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_657c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_657c0.dir/build.make CMakeFiles/cmTC_657c0.dir/build
-make[1]: Entering directory '/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_657c0.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_657c0.dir/src.c.o -c /home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_657c0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657c0.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_657c0.dir/src.c.o -o cmTC_657c0 
-CMakeFiles/cmTC_657c0.dir/src.c.o: In function `main':
-src.c:(.text+0x3c): undefined reference to `pthread_create'
-src.c:(.text+0x48): undefined reference to `pthread_detach'
-src.c:(.text+0x54): undefined reference to `pthread_cancel'
-src.c:(.text+0x65): undefined reference to `pthread_join'
-src.c:(.text+0x79): undefined reference to `pthread_atfork'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_657c0.dir/build.make:98: recipe for target 'cmTC_657c0' failed
-make[1]: *** [cmTC_657c0] Error 1
-make[1]: Leaving directory '/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_657c0/fast' failed
-make: *** [cmTC_657c0/fast] Error 2
-
-
-Source file was:
-#include <pthread.h>
-
-static void* test_func(void* data)
-{
-  return data;
-}
-
-int main(void)
-{
-  pthread_t thread;
-  pthread_create(&thread, NULL, test_func, NULL);
-  pthread_detach(thread);
-  pthread_cancel(thread);
-  pthread_join(thread, NULL);
-  pthread_atfork(NULL, NULL, NULL);
-  pthread_exit(NULL);
-
-  return 0;
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_29aeb/fast && /usr/bin/make  -f CMakeFiles/cmTC_29aeb.dir/build.make CMakeFiles/cmTC_29aeb.dir/build
-make[1]: Entering directory '/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29aeb.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_29aeb.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_29aeb
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29aeb.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_29aeb.dir/CheckFunctionExists.c.o -o cmTC_29aeb  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_29aeb.dir/build.make:98: recipe for target 'cmTC_29aeb' failed
-make[1]: *** [cmTC_29aeb] Error 1
-make[1]: Leaving directory '/home/kjs/CppND-Route-Planning-Project/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_29aeb/fast' failed
-make: *** [cmTC_29aeb/fast] Error 2
-
-
-
-Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_2802b/fast && /usr/bin/make  -f CMakeFiles/cmTC_2802b.dir/build.make CMakeFiles/cmTC_2802b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_62c4c/fast && /usr/bin/make -f CMakeFiles/cmTC_62c4c.dir/build.make CMakeFiles/cmTC_62c4c.dir/build
 make[1]: Entering directory '/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2802b.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2802b.dir/src.c.o -c /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2802b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2802b.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_2802b.dir/src.c.o -o cmTC_2802b 
-CMakeFiles/cmTC_2802b.dir/src.c.o: In function `main':
-src.c:(.text+0x3c): undefined reference to `pthread_create'
-src.c:(.text+0x48): undefined reference to `pthread_detach'
-src.c:(.text+0x54): undefined reference to `pthread_cancel'
-src.c:(.text+0x65): undefined reference to `pthread_join'
-src.c:(.text+0x79): undefined reference to `pthread_atfork'
+Building C object CMakeFiles/cmTC_62c4c.dir/src.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_62c4c.dir/src.c.o   -c /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_62c4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c4c.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_62c4c.dir/src.c.o  -o cmTC_62c4c 
+/usr/bin/ld: CMakeFiles/cmTC_62c4c.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2802b.dir/build.make:98: recipe for target 'cmTC_2802b' failed
-make[1]: *** [cmTC_2802b] Error 1
+make[1]: *** [CMakeFiles/cmTC_62c4c.dir/build.make:87: cmTC_62c4c] Error 1
 make[1]: Leaving directory '/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_2802b/fast' failed
-make: *** [cmTC_2802b/fast] Error 2
+make: *** [Makefile:121: cmTC_62c4c/fast] Error 2
 
 
 Source file was:
 #include <pthread.h>
 
-static void* test_func(void* data)
+void* test_func(void* data)
 {
   return data;
 }
@@ -100,7 +31,6 @@ int main(void)
   pthread_t thread;
   pthread_create(&thread, NULL, test_func, NULL);
   pthread_detach(thread);
-  pthread_cancel(thread);
   pthread_join(thread, NULL);
   pthread_atfork(NULL, NULL, NULL);
   pthread_exit(NULL);
@@ -111,20 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7c93/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7c93.dir/build.make CMakeFiles/cmTC_d7c93.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c33f1/fast && /usr/bin/make -f CMakeFiles/cmTC_c33f1.dir/build.make CMakeFiles/cmTC_c33f1.dir/build
 make[1]: Entering directory '/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7c93.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d7c93.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d7c93
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c93.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_d7c93.dir/CheckFunctionExists.c.o -o cmTC_d7c93  -lpthreads 
+Building C object CMakeFiles/cmTC_c33f1.dir/CheckFunctionExists.c.o
+/bin/x86_64-linux-gnu-gcc-9   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c33f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c33f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33f1.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-gcc-9  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c33f1.dir/CheckFunctionExists.c.o  -o cmTC_c33f1  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d7c93.dir/build.make:98: recipe for target 'cmTC_d7c93' failed
-make[1]: *** [cmTC_d7c93] Error 1
+make[1]: *** [CMakeFiles/cmTC_c33f1.dir/build.make:87: cmTC_c33f1] Error 1
 make[1]: Leaving directory '/home/kjs/Udacity_Cpp_2_Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_d7c93/fast' failed
-make: *** [cmTC_d7c93/fast] Error 2
+make: *** [Makefile:121: cmTC_c33f1/fast] Error 2
 
 
 
