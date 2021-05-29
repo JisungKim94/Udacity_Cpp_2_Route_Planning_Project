@@ -53,6 +53,10 @@
         "random": "cpp",
         "set": "cpp",
         "string": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "bit": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "unordered_set": "cpp"
     }
 }

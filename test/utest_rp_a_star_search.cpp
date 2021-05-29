@@ -106,6 +106,7 @@ TEST_F(RoutePlannerTest, TestConstructFinalPath) {
     EXPECT_FLOAT_EQ(start_node->y, path.front().y);
     EXPECT_FLOAT_EQ(end_node->x, path.back().x);
     EXPECT_FLOAT_EQ(end_node->y, path.back().y);
+    
 }
 
 
